@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background:black;
+}
+
+.container {
+    width: 700px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#text1{
+    text-align: center;
+}
+
+#studentForm{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+   
+}
+.in {
+    flex: 1;
+    padding: 8px;
+}
+
+.butt{
+    padding: 8px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#butthover {
+    background: #0056b3;
+}
+
+.tab{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ms {
+    border: 1px solid #ddd;
+}
+
+.ms {
+    padding: 8px;
+    text-align: center;
+}
+
+.action-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit {
+    background: orange;
+    color: white;
+}
+
+.delete {
+    background: red;
+    color: white;
+}
+
+
+

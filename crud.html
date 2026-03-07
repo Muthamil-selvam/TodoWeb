@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="crud.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 id="text1">Student CRUD Application</h2>
+
+        <form id="studentForm">
+            <input type="hidden" id="editIndex">
+            
+            <input class="in" type="text" id="name" placeholder="Enter Name" required>
+            <input class="in" type="number" id="age" placeholder="Enter Age" required>
+            <input class="in" type="text" id="course" placeholder="Enter Course" required>
+            
+            <button class="butt" type="submit">Save</button>
+        </form>
+        <table class="tab">
+                <tr>
+                    <th class="ms">Name</th>
+                    <th class="ms">Age</th>
+                    <th class="ms">Course</th>
+                    <th class="ms">Update</th>
+                </tr>
+            <tbody id="studentTable"></tbody>
+        </table>
+    </div>
+<script src="crud.js"></script>
+</body>
+</html>
