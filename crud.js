@@ -9,10 +9,10 @@ function displayStudents() {
     students.forEach((student, index) => {
         table.innerHTML += `    
             <tr>
-                <td classname="ms">${student.name}</td>
-                <td classname="ms">${student.age}</td>
-                <td classname="ms">${student.course}</td>
-                <td classname="ms">
+                <td class="ms">${student.name}</td>
+                <td class="ms">${student.age}</td>
+                <td class="ms">${student.course}</td>
+                <td class="ms">
                     <button class="action-btn edit" onclick="editStudent(${index})">Edit</button>
                     <button class="action-btn delete" onclick="deleteStudent(${index})">Delete</button>
                 </td>
